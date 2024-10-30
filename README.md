@@ -64,6 +64,11 @@ stablediffusionapi/flat-2d-animerge
 
 This model is designed to handle different LoRA configurations, making it versatile for various anime-style image generation tasks.
 
+The `sd_model` in `app.py` is a dropdown. When we have an `sd1.5` version of the 
+[https://huggingface.co/svjack/Genshin-Impact-LandScape-lora-sd-xl-rk32](https://huggingface.co/svjack/Genshin-Impact-LandScape-lora-sd-xl-rk32)
+model (which can be loaded in `def update_sd_model(self, sd_model)` using `pipe.load_lora_weights`), 
+try some scenarios.
+
 ---
 
 This guide should help you set up the environment and get started with the project. If you encounter any issues, please refer to the documentation or seek help from the community.
