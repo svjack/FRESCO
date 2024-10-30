@@ -69,6 +69,15 @@ The `sd_model` in `app.py` is a dropdown. When we have an `sd1.5` version of the
 model (which can be loaded in `def update_sd_model(self, sd_model)` using `pipe.load_lora_weights`), 
 try some scenarios.
 
+If there is a model of Genshin Impact characters, what would happen?
+
+What model is the LoRA here?
+[https://huggingface.co/roobini-gamer/GenshinImpact-LoRAs](https://huggingface.co/roobini-gamer/GenshinImpact-LoRAs)
+
+#### Model Versions
+- [https://huggingface.co/roobini-gamer/GenshinImpact-LoRAs/tree/da868912065738a4876dddffc565b7f6136845e7](https://huggingface.co/roobini-gamer/GenshinImpact-LoRAs/tree/da868912065738a4876dddffc565b7f6136845e7)
+- [https://huggingface.co/xiaozhangMJXXZ/Genshin-lora-all/tree/main](https://huggingface.co/xiaozhangMJXXZ/Genshin-lora-all/tree/main)
+
 ---
 
 This guide should help you set up the environment and get started with the project. If you encounter any issues, please refer to the documentation or seek help from the community.
