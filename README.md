@@ -49,6 +49,11 @@ Install the required Python packages by running:
 pip install -r requirements.txt
 ```
 
+## Run 
+```bash
+python app.py
+```
+
 ## Additional Note for Anime Models
 
 If you are working with anime models, you might want to try the following model, which supports various LoRA (Low-Rank Adaptation) merges:
