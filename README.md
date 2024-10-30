@@ -23,6 +23,46 @@ Extensive experiments demonstrate the effectiveness of our proposed framework in
 https://github.com/williamyang1991/FRESCO/assets/18130694/aad358af-4d27-4f18-b069-89a1abd94d38
 
 
+# Installation and Setup Guide
+
+## Prerequisites
+
+Before you begin, ensure that your system has the necessary tools installed. You can install them using the following commands:
+
+```bash
+sudo apt-get update && sudo apt-get install git-lfs ffmpeg cbm
+```
+
+## Clone the Repository
+
+Next, clone the repository from Hugging Face:
+
+```bash
+git clone https://huggingface.co/spaces/svjack/FRESCO && cd FRESCO
+```
+
+## Install Dependencies
+
+Install the required Python packages by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Additional Note for Anime Models
+
+If you are working with anime models, you might want to try the following model, which supports various LoRA (Low-Rank Adaptation) merges:
+
+```bash
+stablediffusionapi/flat-2d-animerge
+```
+
+This model is designed to handle different LoRA configurations, making it versatile for various anime-style image generation tasks.
+
+---
+
+This guide should help you set up the environment and get started with the project. If you encounter any issues, please refer to the documentation or seek help from the community.
+
 ## Updates
 - [05/2024] The Diffusers pipeline is available: [FRESCO Community Pipeline](https://github.com/huggingface/diffusers/tree/main/examples/community#fresco).
 - [04/2024] Integrated to 🤗 [Hugging Face](https://huggingface.co/spaces/PKUWilliamYang/FRESCO). Enjoy the web demo!
